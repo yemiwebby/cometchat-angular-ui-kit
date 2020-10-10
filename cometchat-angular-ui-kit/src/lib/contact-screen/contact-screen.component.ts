@@ -10,7 +10,9 @@ import { CONVERSATION_LIST_ACTIONS, CONTACT_LIST_ACTIONS, CONVERSATIONS_SCREEN_A
 export class ContactScreenComponent implements OnInit {
   user?: object;
   json = JSON;
-  inProgressCall
+  inProgressCall;
+  incomingScreen;
+  friendsOnly;
   constructor() { }
 
   ngOnInit() {
