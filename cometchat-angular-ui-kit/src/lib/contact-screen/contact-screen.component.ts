@@ -9,6 +9,7 @@ import { CONVERSATION_LIST_ACTIONS, CONTACT_LIST_ACTIONS, CONVERSATIONS_SCREEN_A
 })
 export class ContactScreenComponent implements OnInit {
   user?: object;
+  group?: object;
   json = JSON;
   inProgressCall;
   incomingScreen;
